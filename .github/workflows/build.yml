@@ -1,9 +1,11 @@
 name: BUILD
 
 on:
-  push:
-  schedule:
-    - cron:  '1 */8 * * *'
+  watch:
+    types: started
+  # push:
+  # schedule:
+  #   - cron:  '1 */8 * * *'
 
 jobs:
   buildAUR:

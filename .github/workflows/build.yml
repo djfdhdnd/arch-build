@@ -17,6 +17,10 @@ jobs:
           - google-chrome
           - microsoft-edge-stable-bin
           - visual-studio-code-bin
+          - yesplaymusic-electron
+          - wps-office-cn
+          - wps-office-mime-cn
+          - wps-office-mui-zh-cn
 
       fail-fast: false
       

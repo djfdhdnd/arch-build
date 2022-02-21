@@ -11,7 +11,12 @@ jobs:
   buildAUR:
     strategy:
       matrix:
-        repos: [systemd-kcm,dida-bin,google-chrome,microsoft-edge-stable-bin] #@ 改这里
+        repos:  #@ 改这里
+          - systemd-kcm
+          - dida-bin
+          - google-chrome
+          - microsoft-edge-stable-bin
+          - visual-studio-code-bin
 
       fail-fast: false
       

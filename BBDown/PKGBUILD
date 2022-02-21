@@ -1,0 +1,25 @@
+pkgname=BBDown
+pkgver=1.4.8
+pkgrel=1
+pkgdesc=""
+arch=("x86_64")
+url="https://github.com/nilaoda/BBDown"
+license=()
+groups=()
+depends=()
+makedepends=()
+optdepends=()
+provides=()
+conflicts=()
+replaces=()
+backup=()
+options=()
+install=
+changelog=
+source=($pkgname-$pkgver.zip::$url/releases/download/${pkgver}/${pkgname}_v${pkgver}_20220127_linux-x64.zip)
+noextract=()
+md5sums=('SKIP') #autofill using updpkgsums
+
+package() {
+    install -Dm 755 BBDown $pkgdir/usr/bin/bbdown
+} 

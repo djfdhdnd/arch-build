@@ -9,7 +9,7 @@ jobs:
   buildAUR:
     strategy:
       matrix:
-        repos: [] #@ 改这里
+        repos: [systemd-kcm,dida-bin,google-chrome,microsoft-edge-stable-bin] #@ 改这里
 
       fail-fast: false
       

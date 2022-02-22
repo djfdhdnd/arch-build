@@ -11,11 +11,9 @@ The uploadToOneDrive job is optional, you can use [urepo](https://github.com/vif
 add commands below into `/etc/pacman.conf`
 
 ```
-
 [packages]
 SigLevel = Never
 Server = https://github.com/aggjjfd/arch-build/releases/download/packages
 Server = https://hub.fastgit.xyz/aggjjfd/arch-build/releases/download/packages
 # Server = https://git.aya1.top/aggjjfd/arch-build/releases/download/packages
-
 ```

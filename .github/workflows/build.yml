@@ -24,6 +24,7 @@ jobs:
           - nerd-fonts-sarasa-mono
           - tlpui
           - noto-fonts-lite
+          - easyconnect
 
       fail-fast: false
       

@@ -90,3 +90,10 @@ jobs:
       - uses: ./update-db-for-repo
         with:
           tag: packages
+          
+      - uses: ncipollo/release-action@v1
+        with:
+          allowUpdates: true
+          tag: "packages"
+          artifacts: "./packages.*"
+          token: ${{ secrets.GITHUB_TOKEN }}

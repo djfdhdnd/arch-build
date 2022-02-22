@@ -22,6 +22,8 @@ jobs:
           - wps-office-mime-cn
           - wps-office-mui-zh-cn
           - nerd-fonts-sarasa-mono
+          - tlpui
+          - noto-fonts-lite
 
       fail-fast: false
       
